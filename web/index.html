@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-app">
+        <header class="chat-header">
+            <h1>AI Chat</h1>
+            <label class="avatar-chooser">
+                Choose avatar
+                <input type="file" id="avatarInput" accept="image/*" />
+            </label>
+        </header>
+        <main id="chatWindow" class="chat-window"></main>
+        <form id="chatForm" class="chat-form">
+            <input type="text" id="chatInput" placeholder="Type a message..." autocomplete="off" />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
